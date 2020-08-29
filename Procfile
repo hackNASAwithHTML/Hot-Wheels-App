@@ -1,1 +1,1 @@
-web: gunicorn hot_wheels_demo.wsgi--log-file-
+web: gunicorn hot_wheels_demo.wsgi --log-file-
