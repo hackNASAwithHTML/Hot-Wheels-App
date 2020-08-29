@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u24-*l+hkl&h7_)und17vu_2y()d)^0xw*3(hvy5r15gy_6noi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['hotwheels-phanda.herokuapp.com','192.168.1.94','localhost','127.0.0.1']
 LOGIN_URL = '/login/'
