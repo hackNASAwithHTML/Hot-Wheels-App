@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0a0ecc2-b499-45ac-9277-7db22762cb43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../hot_wheels_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../hot_wheels_demo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../diecast/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../diecast/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../diecast/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../hot_wheels_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../hot_wheels_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-445" />
+    <option name="x" value="-431" />
     <option name="y" value="399" />
     <option name="width" value="1946" />
     <option name="height" value="1036" />
