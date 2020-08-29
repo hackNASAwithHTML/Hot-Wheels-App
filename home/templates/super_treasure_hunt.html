@@ -1,0 +1,98 @@
+{% extends "task_bar.html" %}
+{% block content %}
+{% load static %}
+
+<section id="main">
+    <div class="inner">
+				<section id="one" class="wrapper style2">
+						<div class="image fit flush">
+							<img src="{% static 'images/logo.jpg' %}" alt="" />
+						</div>
+						<div class="image fit flush">
+							<img src="{% static 'images/sth-logo.jpg' %}" alt="" />
+						</div>
+					</section>
+			<section id="two" class="wrapper style1">
+				<header class="special">
+							<h2 style="color:black;">Treasure Hunts</h2>
+							<p style="color:black;">Fortune and benefit </p>
+						</header>
+						<div class="content">
+							<p style="color:black;">Treasure Hunts (sometimes T-Hunts) are mainline segment series of Hot Wheels cars introduced by Mattel in 1995. They began as 12 cars every year; one released per month. Now there can be 12 or 15 T-hunts. The original production run started at 10,000 pieces worldwide, and have since grown due to the demand and increasing popularity of Hot Wheels collecting. As of 2007, 157 Treasure Hunts have been released.</p>
+						<br>	<p style="color:black;">The early Treasure Hunt Vehicles were identifiable by a label on the package. The blister card said "Treasure Hunt" or "T-Hunt" on a green bar with an illustration of a treasure chest. The cars were typically decorated with flashy designs.</p>
+							<br><p style="color:black;">In 2007, Mattel introduced a two-tiered Treasure Hunt system. A regular Treasure Hunt would feature normal enamel paint and normal wheels compared to other Hot Wheels cars. The production of these is rumored to be greater than Treasure Hunts of the past. The Super Treasure Hunts are much rarer and are like Treasure Hunts of the past, featuring Real Riders wheels and Spectraflame paint. All 12 Treasure Hunt cars are planned to be released in both regular and super versions. The super treasure hunts can go for hundreds of dollars on the card because of its rubber tires and specialized paint.</p>
+							<br><p style="color:black;">In more recent years, T-hunts had some new developments.  Super T-hunts ran on for a while, and in 2012, Super T-hunts were mixed in with the segment series.  The regular T-hunts had the regular T-hunt series. </p>
+							<br><p style="color:black;">Then in 2013, the mainline did its big changes.  Like new models, the 2013 Treasure Hunts were mixed in with the normal cars, identifiable by a small flame symbol. (See identification icons at bottom of page) Super T-hunts were combined as well, but only in Hot Wheels Showroom.  This is the same in 2014, except Super T-hunts made their way into HW City. (as seen in Mustang 50th Anniversary)</p>
+							<br><p style="color:black;">As a result, Treasure Hunt identification on casting pages has moved from the series column to the notes column.</p>
+							<br><p style="color:black;">Although Mattel's new system has been less identifiable, it has been proven to be collectible as 2011.</p>
+							<br><p style="color:black;">The identification icons are used to define T-Hunts from Super T-Hunts. They have been active tampos since 2013.</p>
+							<br><p style="color:black;">Between 2017 and 2018, Treasure Hunts had no numbers, however their regular versions or recolors had their numbers on card.</p>
+							<br><p style="color:black;">In 2019, Treasure Hunts have their numbers alongside the regular versions again.</p>
+						</div>
+					</section>
+				<!-- Two -->
+					<section id="three" class="wrapper style2">
+						<header>
+							<a href="#three"><h2>Notable STH</h2></a>
+							<p>Super Treasure Hunt diecasts</p>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/sesto.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/porsche.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/camaro.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/nissan.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</section>
+
+<style>
+#uniImg {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+	table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+{% endblock %}

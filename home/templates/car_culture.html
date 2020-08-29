@@ -1,0 +1,88 @@
+{% extends "task_bar.html" %}
+{% block content %}
+{% load static %}
+
+<section id="main">
+    <div class="inner">
+				<section id="one" class="wrapper style2">
+<div class="image fit flush">
+							<img src="{% static 'images/logo.jpg' %}" alt="" />
+						</div>
+						<div class="image fit flush">
+							<img src="{% static 'images/car_culture_better.jpg' %}" alt="" />
+						</div>
+					</section>
+			<section id="two" class="wrapper style1">
+				<header class="special">
+							<h2 style="color:black;">Car Culture</h2>
+							<p style="color:black;">Reality and perfection</p>
+						</header>
+						<div class="content">
+                            <p style="color:black;">The Car Culture series is an adult collector-focused series that is all about cultures or styles that involves cars. All cars in the series feature Real Riders wheels, diecast bodies and chassis.</p>
+						</div>
+					</section>
+				<!-- Two -->
+					<section id="three" class="wrapper style2">
+						<header>
+							<h2>Series</h2>
+                            <p>Pack of 5</p>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/silhouette.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/japan-historics-2016.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/gulf.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/cruise-boulevard.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+
+<style>
+#uniImg {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+	table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+{% endblock %}

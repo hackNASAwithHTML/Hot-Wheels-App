@@ -1,0 +1,138 @@
+<!doctype html>
+{% load static %}
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="{% static 'cssmenu/styles.css' %}">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'home/assets/css/main.css' %}" />
+    <!-- Main CSS-->
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" media="all">
+   <title>Hot Wheels App</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href="{% url 'home' %}#home"><span>Home</span></a></li>
+   <li><a href='#'><span id="myBtn">App Info</span></a></li>
+    <li><a href="{% url 'home' %}#two"><span>About</span></a></li>
+   <li><a href="{% url 'home' %}#four"><span>Collection</span></a></li>
+    <li><a href="{% url 'add_diecast' %}"><span>Add diecast</span></a></li>
+    <li class='active has-sub'><a href='#'><span>More</span></a>
+      <ul>
+         <li class='has-sub'><a href="{% url 'car_culture' %}"><span>Car Culture</span></a> </li>
+         <li class='has-sub'><a href="{% url 'red_line_club' %}"><span>RLC</span></a></li>
+          <li class='has-sub'><a href="{% url 'super_treasure_hunt' %}"><span>STH</span></a></li>
+      </ul>
+   </li>
+    {% if user.is_authenticated %}
+    <li><a href="{% url 'log_out' %}"><span>Log Out</span></a></li>
+    {% else %}
+    <li><a href="{% url 'log_in' %}"><span>Log In</span></a></li>
+    <li><a href="{% url 'sign_in' %}"><span>Register</span></a></li>
+    {% endif %}
+</ul>
+</div>
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+      <h1>App information</h1>
+    <p style="color:black;">This app is meant to help you keep track of which Hot Wheels you have already come across and saved in your collection</p>
+      <h1>---------------------------------------------------------------</h1>
+      <h1>User login</h1>
+    <p style="color:black;">Some content are limited, to view them, you should register and login as offical member</p>
+
+  </div>
+
+</div>
+
+{% block content %}
+    {% endblock %}
+		<!-- Scripts -->
+     <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+
+    <!-- Main JS-->
+    <script src="{% static 'js/global.js' %}"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="{% static 'js/custom.js' %}"></script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+<html>

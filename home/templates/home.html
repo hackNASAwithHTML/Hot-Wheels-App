@@ -1,0 +1,129 @@
+{% extends "task_bar.html" %}
+{% block content %}
+{% load static %}
+
+<section id="main">
+    <div class="inner">
+				<section id="one" class="wrapper style2">
+
+						<div class="image fit flush">
+							<img src="{% static 'images/logo.jpg' %}" alt="" />
+						</div>
+					<div class="image fit flush">
+							<img src="{% static 'images/hw.jpg' %}" alt="" />
+						</div>
+					</section>
+			<section id="two" class="wrapper style1">
+				<header class="special">
+							<h2 style="color:black;">Hot Wheels</h2>
+							<p style="color:black;">Simple and Friendly</p>
+						</header>
+						<div class="content">
+							<p style="color:black;">Hot Wheels is a brand of die-cast toy cars introduced by American toy maker Mattel in 1968. It was the primary competitor of Matchbox until 1997, when Mattel bought Tyco Toys, then-owner of Matchbox.
+
+Many automobile manufacturers have since licensed Hot Wheels to make scale models of their cars, allowing the use of original design blueprints and detailing. Although Hot Wheels were originally intended for children and young adults, they have become popular with adult collectors, for whom limited edition models are now made available.</p>
+						<br>	<p style="color:black;">1968
+The original Hot Wheels were made by Elliot Handler. Hot Wheels were conceived to be more like "hot rod" (i.e.customized/modified or even caricaturized or fantasy cars, often with big rear tires, superchargers, flame paint-jobs, outlandish proportions, etc.) cars, as compared to Matchbox cars which were generally small-scale models of production cars.[2] "Sweet 16" There were sixteen castings released on May 18, 1968, eleven of them designed by Harry Bentley Bradley.[3] The first one produced was a dark blue "Custom Camaro".[1] Bradley was from the car industry and had designed the body for the (full-sized) Dodge Deora concept car and the Custom Fleetside, (based on his own customized 1968 Chevrolet C-10 Fleetside).
+
+In 1968, the first production line of Hot Wheels Cars is known as The Original Sweet 16, which is the first of the Red Line Series, meaning the tires have a red pin stripe on their sides.[4]</p>
+						</div>
+					</section>
+				<!-- Two -->
+					<section id="three" class="wrapper style2">
+						<header>
+							<a href="#three"><h2>Legend Hot Wheels</h2></a>
+							<p>Nissan Skyline R34 Redline Club</p>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/skyline-1.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/skyline-2.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/skyline-3.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/skyline-4.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+
+				<!-- list of car -->
+					<section id="four" class="wrapper style2">
+						<header>
+							<h2>My Collection</h2>
+						</header>
+						<div class="content">
+							<table id="t01">
+  <tr>
+    <th>Toy code</th>
+    <th>Casting name</th>
+    <th>Serie</th>
+	  <th>Year</th>
+	  <th>Made in</th>
+	  <th>Color</th>
+	  <th>Photo</th>
+  </tr>
+							{% for item in diecast_list %}
+  <tr>
+    <td style="color:black;">{{item.toy_code}}</td>
+    <td style="color:black;">{{item.casting_name}}</td>
+    <td style="color:black;">{{item.series}}</td>
+	  <td style="color:black;">{{item.year}}</td>
+    <td style="color:black;">{{item.choice}}</td>
+    <td style="color:black;">{{item.color}}</td>
+	  <td><a href="{%static 'images/hot_wheels_storage/'|add:item.toy_code|add:'.jpg'%}"><img id="uniImg" width="400" height="400" src="{%static 'images/hot_wheels_storage/'|add:item.toy_code|add:'.jpg'%}"></a></td>
+  </tr>
+							{% endfor%}
+</table>
+						</div>
+
+					</section>
+				</div>
+			</section>
+
+<style>
+#uniImg {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+	table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+{% endblock %}

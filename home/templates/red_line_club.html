@@ -1,0 +1,89 @@
+{% extends "task_bar.html" %}
+{% block content %}
+{% load static %}
+
+<section id="main">
+    <div class="inner">
+				<section id="one" class="wrapper style2">
+<div class="image fit flush">
+							<img src="{% static 'images/logo.jpg' %}" alt="" />
+						</div>
+						<div class="image fit flush">
+							<img src="{% static 'images/red-line-image.jpg' %}" alt="" />
+						</div>
+					</section>
+			<section id="two" class="wrapper style1">
+				<header class="special">
+							<h2 style="color:black;">Red Line Club</h2>
+							<p style="color:black;">Glory and fame</p>
+						</header>
+						<div class="content">
+							<p style="color:black;">The Red Line Club (often abbreviated as RLC) is an exclusive club on HotWheelsCollectors.com. Members of this club have special privileges such as pre-sales on exclusive vehicles, viewing exclusive sneak peeks, as well as their very own message board. Members of this club are also able to vote in RLC sELECTIONs, where their votes count in deciding a series of 4 cars to be produced.</p>
+						</div>
+					</section>
+				<!-- Two -->
+					<section id="three" class="wrapper style2">
+						<header>
+							<a href="#three"><h2>Legendary Hot Wheels</h2></a>
+							<p>Released Redline diecasts</p>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/custom-mustang.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/porsche-redline.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/skyline-3.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+									<a href="#three"><img src="{% static 'images/honda-s2000-redline.jpg' %}" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</section>
+
+<style>
+#uniImg {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+	table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+{% endblock %}

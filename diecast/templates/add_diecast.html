@@ -1,0 +1,45 @@
+{% extends "task_bar.html" %}
+{% block content %}
+{%load crispy_forms_tags%}
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+<section id="main">
+				<div class="inner">
+					<div class="wrapper style1">
+						<div class="content">
+
+							<!-- Elements -->
+                                <form class="contribute" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="content">
+		{{dform|crispy}}
+		<tr><th><label >Admin password (feature belongs to admin only)</label></th><td><input type="password" name="admin_password" maxlength="254"></td></tr>
+        <tr><th><label >Photo</label></th><td><input type="file" id="id_file" class="style" name="hotwheelsimage"/></td></tr>
+        <button type="submit" class="button button1">Upload</button><span>Click to upload a model</span>
+</div>
+
+</form>
+							</div>
+
+						</div>
+					</div>
+			</section>
+{% endblock %}
