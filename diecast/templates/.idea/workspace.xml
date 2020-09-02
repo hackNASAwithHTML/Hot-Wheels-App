@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0664ab9d-4c0a-44a6-9f47-d06e1e6a6017" name="Default Changelist" comment="" />
+    <list default="true" id="0664ab9d-4c0a-44a6-9f47-d06e1e6a6017" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../home/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../home/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../home/templates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hot_wheels_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/.idea/seller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/templates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/add_seller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/decode_mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/encode_mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/seller_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/templates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/templates/task_bar_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../home/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../home/templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hot_wheels_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hot_wheels_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hot_wheels_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hot_wheels_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hot_wheels_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hot_wheels_demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../staticfiles/home/css/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../staticfiles/home/css/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user/templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../user/templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user/templates/task_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../user/templates/task_bar.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +48,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add_diecast.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="35" column="95" lean-forward="true" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+            <state relative-caret-position="323">
+              <caret line="40" lean-forward="true" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,11 +67,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-438" />
+    <option name="x" value="-441" />
     <option name="y" value="399" />
     <option name="width" value="1946" />
     <option name="height" value="1036" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -104,8 +143,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/add_diecast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="35" column="95" lean-forward="true" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+        <state relative-caret-position="323">
+          <caret line="40" lean-forward="true" selection-end-line="44" selection-end-column="14" />
         </state>
       </provider>
     </entry>

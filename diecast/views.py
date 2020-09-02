@@ -39,8 +39,10 @@ def add_diecast(request):
     dform = DieCastForm()
     if request.method == "POST":
         data = request.POST
+        print("p = ",data['admin_password'])
         hashed_password = hashlib.sha256(data['admin_password'].encode())
         hexdigest_password = hashed_password.hexdigest()
+        print(" em is ",hexdigest_password)
         if hexdigest_password=="240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9":
             handle_uploaded_file(request.FILES['hotwheelsimage'], data['toy_code'])
             format = "jpg"

@@ -22,7 +22,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('',include('home.urls')),
     path('',include('user.urls')),
-    path('',include('diecast.urls'))
+    path('',include('diecast.urls')),
+    path('',include('seller.urls'))
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

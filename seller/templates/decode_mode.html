@@ -1,0 +1,54 @@
+{% extends "task_bar_admin.html" %}
+{% block content %}
+{% load static %}
+
+<section id="main">
+    <div class="inner">
+				<!-- Two -->
+            <div class="wrapper style1">
+						<div class="content">
+
+							<!-- Elements -->
+                                <form class="contribute" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="content">
+
+		<tr><th><label >Admin password (feature belongs to admin only)</label></th><td><input type="password" name="admin_password" maxlength="254"></td></tr>
+        <button type="submit" class="button button1">Decrypt</button><span>Click to decrypt information</span>
+</div>
+
+</form></div>
+
+						</div>
+    </div></section>
+<style>
+#uniImg {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+	table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+{% endblock %}

@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'home.apps.HomeConfig',
     'whitenoise.runserver_nostatic',
-
+    'seller.apps.SellerConfig',
     'user.apps.UserConfig',
 'crispy_forms',
     'diecast.apps.DiecastConfig',

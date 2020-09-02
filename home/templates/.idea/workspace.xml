@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fd5dc1d-ab6e-420c-aa4a-a557d45243a4" name="Default Changelist" comment="" />
+    <list default="true" id="4fd5dc1d-ab6e-420c-aa4a-a557d45243a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../diecast/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../diecast/templates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hot_wheels_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/.idea/seller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/templates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/add_seller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/decode_mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/encode_mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seller/templates/seller_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/templates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user/templates/task_bar_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../diecast/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../diecast/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../diecast/templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../diecast/templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../diecast/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../diecast/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hot_wheels_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hot_wheels_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hot_wheels_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hot_wheels_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hot_wheels_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hot_wheels_demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../staticfiles/home/css/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../staticfiles/home/css/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user/templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../user/templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user/templates/task_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../user/templates/task_bar.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -34,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/car_culture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -59,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/super_treasure_hunt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="612">
               <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -89,22 +124,26 @@
       <find>url</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/red_line_club.html" />
-        <option value="$PROJECT_DIR$/car_culture.html" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/super_treasure_hunt.html" />
+        <option value="$PROJECT_DIR$/car_culture.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-440" />
+    <option name="x" value="-441" />
     <option name="y" value="399" />
     <option name="width" value="1946" />
     <option name="height" value="1036" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -185,40 +224,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car_culture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/super_treasure_hunt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="612">
           <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -233,6 +241,37 @@
             <element signature="n#style#0;n#p#7;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#8;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#9;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car_culture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#header#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#section#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#div#0;n#section#3;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
